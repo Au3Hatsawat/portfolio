@@ -1,4 +1,4 @@
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { data } from "../../contents/header.js";
 
@@ -9,7 +9,9 @@ const Header = () => {
         {data.name}
       </div>
       <div className="text-primaryContent font-semibold">{data.field}</div>
-      <div className="text-sm w-4/6">{data.caption}</div>
+      <div className="flex gap-2 text-sm w-4/6">
+      <FontAwesomeIcon icon={faLocationDot}/>
+      {data.caption}</div>
       <div className="mt-4">
         <a href={data.link} target="_blank">
           <span className="rounded-md bg-primaryTitle py-2 px-4 text-primarySubContent">

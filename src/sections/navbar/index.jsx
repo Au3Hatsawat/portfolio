@@ -8,9 +8,8 @@ const NavBar = () => {
               <FontAwesomeIcon className='mr-2 text-primaryTitle' icon={faArrowRight}/>
               About
               </div>
-            <div>Experience</div>
-            <div>Project</div>
-            <div>Article</div>
+            <div>Technologies</div>
+            <div>Projects</div>
           </div>
     )
 }

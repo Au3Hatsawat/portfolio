@@ -6,8 +6,10 @@ const About = () => {
     <div className="text-primaryContent font-medium text-lg">
         About
     </div>
-    <div>
-        {data.description}
+    <div className="flex flex-col gap-2">
+        {data.description.map((i,index)=>(
+          <span key={index}>{i}</span>
+        ))}
     </div>
   </div>
 );

@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const ExperinceComponent = (props) => {
     const [isMouseEnter , setIsMouseEnter] = useState(false);
+    const key = props.key;
     const item = props.items;
     const skill = props.skills;
     const title = props.title;
@@ -12,6 +13,7 @@ const ExperinceComponent = (props) => {
     
     return (
     <div 
+    key={key}
     className={`grid grid-cols-[20%_80%] px-2 py-6 transition-all ${isMouseEnter ? "bg-gray-500 rounded-md" : ""}`}
     onMouseEnter={() => setIsMouseEnter(true)}
     onMouseLeave={() => setIsMouseEnter(false)}
@@ -32,8 +34,8 @@ const ExperinceComponent = (props) => {
             <div className="text-base text-primaryContent">{description}</div> 
             <div className="flex gap-4 text-sm">
                 {
-                    skill.map((i)=>(
-                        <div className={`rounded-md bg-primarySubContent px-2 py-1 text-primaryContent ${isMouseEnter ? "text-primaryTitle" : ""} `} key={i.id}>{i.name}</div>
+                    skill.map((index)=>(
+                        <div className={`rounded-md bg-primarySubContent px-2 py-1 text-primaryContent ${isMouseEnter ? "text-primaryTitle" : ""} `} key={index.id}>{index.name}</div>
                     ))
                 }
             </div>
