@@ -20,7 +20,7 @@ export const data = [
         items:[{id:1,icon:faGithub}],
         skills:[{id:1,name:"Flutter"},{id:2,name:"Android Studio"}],
         links:["https://github.com/The1Re/ip_checker"],
-        photo:flutter_photo
+        photo:""
     },
     {
         id:3,
@@ -30,6 +30,6 @@ export const data = [
         items:[{id:1,icon:faGithub}],
         skills:[{id:1,name:"HTML"},{id:2,name:"CSS"},{id:3,name:"php"},{id:4,name:"mySQL"}],
         links:["https://github.com/Au3Hatsawat/databaseProject"],
-        photo:hotel_photo
+        photo:""
     }
 ]
