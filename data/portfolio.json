@@ -1,0 +1,70 @@
+{
+  "profile": {
+    "name": "Hatsawat Intrasod",
+    "role": "Application Developer Intern | Student at Kasetsart University",
+    "email": "hatsawat.intr@gmail.com",
+    "phone": "061-6909703",
+    "github": "https://github.com/Au3Hatsawat",
+    "linkedin": "https://www.linkedin.com/in/hatsawat",
+    "location": "Buriram, Thailand",
+    "bio": "Computer Engineering student at Kasetsart University. Experienced in Full Stack development with a strong focus on backend systems, database management, and modern web frameworks like Next.js, NestJS, and Go."
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Application Developer Intern",
+      "company": "T.C.C. Technology Co., Ltd.",
+      "period": "November 2025 - Present",
+      "description": [
+        "Contributed to the backend of a randomized product selection feature by implementing user time tracking logic and resolving defects identified during QA testing.",
+        "Fixed SQL Injection, IDOR issues, transaction leaks, and implemented input validation to prevent negative values.",
+        "Refactored code structure by migrating logging to zerolog, removing unnecessary logs.",
+        "Updated database events and views, improved API responses, and prepared JSON data from the database for testing purposes."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Developer (Freelance) - Mordin Project",
+      "company": "Mitr Phol Innovation & Research Center",
+      "period": "April 2025 - January 2026",
+      "description": [
+        "Responsible for developing a comprehensive internal web application using React, enabling administrators to manage soil sample data and complex laboratory results.",
+        "Developed a public-facing website for farmers using PHP Flight to deliver personalized agricultural data and recommendations.",
+        "Implemented a RESTful API with NestJS to handle all system data, from user accounts to scientific analysis results."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Application Developer Intern",
+      "company": "Wealth Management System Limited",
+      "period": "April 2025 - May 2025",
+      "description": [
+        "Developed C# functions to convert SQL queries between MSSQL and DB2, using the Composite Pattern to handle nested-IF conditions.",
+        "Built and maintained backend services using C#, handling API endpoints and business logic.",
+        "Designed and implemented dynamic web components using Angular, integrating frontend pages with backend APIs.",
+        "Collaborated on developing user interfaces with dynamic components and several web pages to enhance user experience."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "Kasetsart University, Kamphaeng Saen Campus",
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "period": "June 2022 - Present"
+    },
+    {
+      "id": 2,
+      "institution": "Surawittayakarn High School",
+      "degree": "Science and Mathematics Curriculum",
+      "period": "2019 - 2021"
+    }
+  ],
+  "skills": {
+    "languages": ["TypeScript", "Java", "C#", "Dart", "PHP", "Go"],
+    "frameworks": ["React", "Angular", "Next.js", "NestJS", "Spring Boot", "Flutter", "React Native", "Node.js"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB", "DB2", "MSSQL"],
+    "tools": ["Git", "GitHub", "Postman", "Figma", "Firebase", "Docker"]
+  },
+  "projects": []
+}
