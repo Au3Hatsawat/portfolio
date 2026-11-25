@@ -18,7 +18,6 @@
       "description": [
         "Developed and maintained Go (Golang) backend services and RESTful APIs for order management, order cap design, delivery tracking, merchant onboarding, nearby landmark search, stage-aware FCM notifications, audit logging, and Omise payment webhook investigation.",
         "Implemented backend user key exchange APIs in Go to support encrypted and decrypted messaging between buyers and sellers, along with chat log handling.",
-        "Implemented Microsoft Office 365 (O365) login authentication flow to integrate enterprise single sign-on with backend user sessions.",
         "Hardened and refactored Go (Golang) services by fixing SQL Injection, IDOR, database transaction leaks, and negative/length input validation, migrating logging to zerolog, centralizing JSON error handling, removing unused routes, and writing data-patch scripts.",
         "Reverse-engineered a legacy POS system into PRD specifications and OpenAPI (Scalar) contracts, and built an AI-powered automated review pipeline verifying specs against live APIs and Android Emulator (ADB).",
         "Operated a human-in-the-loop multi-agent AI workflow (SDD → TDD) covering automated issue splitting, spec/test-plan generation, role-scoped agent implementation, and automated test verification."
