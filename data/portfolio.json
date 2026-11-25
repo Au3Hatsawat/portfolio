@@ -1,25 +1,27 @@
 {
   "profile": {
     "name": "Hatsawat Intrasod",
-    "role": "Application Developer Intern | Student at Kasetsart University",
+    "role": "Application Developer | M.Sc. Computer Science Student at KMITL",
     "email": "hatsawat.intr@gmail.com",
     "phone": "061-6909703",
     "github": "https://github.com/Au3Hatsawat",
     "linkedin": "https://www.linkedin.com/in/hatsawat",
-    "location": "Buriram, Thailand",
-    "bio": "Computer Engineering student at Kasetsart University. Experienced in Full Stack development with a strong focus on backend systems, database management, and modern web frameworks like Next.js, NestJS, and Go."
+    "location": "Bangkok, Thailand",
+    "bio": "Application Developer at T.C.C. Technology and Master of Computer Science student at KMITL. Focused on Go (Golang) backend services, API security, database reliability, and AI-assisted engineering workflows."
   },
   "experiences": [
     {
       "id": 1,
-      "title": "Application Developer Intern",
+      "title": "Application Developer",
       "company": "T.C.C. Technology Co., Ltd.",
       "period": "November 2025 - Present",
       "description": [
-        "Contributed to the backend of a randomized product selection feature by implementing user time tracking logic and resolving defects identified during QA testing.",
-        "Fixed SQL Injection, IDOR issues, transaction leaks, and implemented input validation to prevent negative values.",
-        "Refactored code structure by migrating logging to zerolog, removing unnecessary logs.",
-        "Updated database events and views, improved API responses, and prepared JSON data from the database for testing purposes."
+        "Developed and maintained Go (Golang) backend services and RESTful APIs for order management, order cap design, delivery tracking, merchant onboarding, nearby landmark search, stage-aware FCM notifications, audit logging, and Omise payment webhook investigation.",
+        "Implemented backend user key exchange APIs in Go to support encrypted and decrypted messaging between buyers and sellers, along with chat log handling.",
+        "Implemented Microsoft Office 365 (O365) login authentication flow to integrate enterprise single sign-on with backend user sessions.",
+        "Hardened and refactored Go (Golang) services by fixing SQL Injection, IDOR, database transaction leaks, and negative/length input validation, migrating logging to zerolog, centralizing JSON error handling, removing unused routes, and writing data-patch scripts.",
+        "Reverse-engineered a legacy POS system into PRD specifications and OpenAPI (Scalar) contracts, and built an AI-powered automated review pipeline verifying specs against live APIs and Android Emulator (ADB).",
+        "Operated a human-in-the-loop multi-agent AI workflow (SDD → TDD) covering automated issue splitting, spec/test-plan generation, role-scoped agent implementation, and automated test verification."
       ]
     },
     {
@@ -49,12 +51,18 @@
   "education": [
     {
       "id": 1,
-      "institution": "Kasetsart University, Kamphaeng Saen Campus",
-      "degree": "Bachelor of Engineering in Computer Engineering",
-      "period": "June 2022 - Present"
+      "institution": "King Mongkut's Institute of Technology Ladkrabang (KMITL)",
+      "degree": "Master of Computer Science",
+      "period": "2026 - Present"
     },
     {
       "id": 2,
+      "institution": "Kasetsart University, Kamphaeng Saen Campus",
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "period": "2022 - 2025"
+    },
+    {
+      "id": 3,
       "institution": "Surawittayakarn High School",
       "degree": "Science and Mathematics Curriculum",
       "period": "2019 - 2021"
